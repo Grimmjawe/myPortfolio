@@ -1,0 +1,30 @@
+:root {
+    --dark-color: #230338;
+    --light-color: #c70d3a;
+    --orange-color: #ed5107;
+    --super-gold: #fff1c1;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Indie Flower", cursive;
+}
+.top-container{
+    background: linear-gradient(to right, var(--dark-color), var(--light-color));
+    height: 600px;
+}
+.top-wrapper{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid white;
+    position: relative;
+}
+.cloud{
+    position: absolute;
+}
+.mountain{
+    position: absolute;
+    bottom: 0;
+}
