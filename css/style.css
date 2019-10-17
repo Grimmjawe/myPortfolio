@@ -43,6 +43,25 @@
     margin: 2rem auto;
     text-align: center;
 }
+.skills{
+    width: 810px;
+    margin: 2rem auto;
+}
+.skills2{
+    margin-top: 55px;
+    text-align: right;
+}
+.skills1 img{
+    margin-right: 25px;
+    float: left;
+}
+.skills2 img{
+    margin-left: 25px;
+    float: right;
+}
+.skills img{
+    width: 120px;
+}
 .avatar{
     width: 100px;
 }
